@@ -32,8 +32,10 @@ void loop() {
   sensorVoltage=map(sensorValue,0,1023,0,aref_voltage);
 
   float sensorTemp =25+(sensorVoltage-750)*.1 ;//TMP36; 750mV@25C; dV/dT=+10mV/C; range:-40 to +125C
+  Serial.print(sensorTemp*1.1);
+  Serial.print(" ");
   Serial.println(sensorTemp);
-
+ 
   delay(1000);// wait one second
 
 

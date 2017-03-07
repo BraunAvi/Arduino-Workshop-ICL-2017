@@ -42,7 +42,7 @@ void loop() {
 
   delay(1000);// wait one second
 
-  if (sensorTemp>20){
+  if (sensorTemp>24){
     digitalWrite(LEDPin,HIGH);
   }
   else{          
