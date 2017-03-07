@@ -61,20 +61,6 @@ void loop() {
     analogWrite(LEDPinBlue, colour);
     analogWrite(LEDPinRed, 255-colour);
   }
-//  
-//  if (sensorTemp < 19.5) {
-//    analogWrite(LEDPinRed, 255);
-//    analogWrite(LEDPinBlue, 0);
-//    //        Serial.print("HIGH");
-//  }
-//  else {
-//    analogWrite(LEDPinRed, 0);
-//    analogWrite(LEDPinBlue, 255);
-//
-//    //        Serial.print("LOW");
-//  }
-  //  delay(1000);// wait one second
-
 }
 
 
